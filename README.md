@@ -34,6 +34,7 @@
 
   * `footer`写了几个锚链接, 意思不言而喻嘛
 
+
 * `self-introduction.html`
 
 * * 同样页头页脚有链接
@@ -77,4 +78,31 @@
 * idea补全功能比vs更方便, 但是习惯vs code写了
 * `toLowerCase()`idea无法运行
 * 删除单个任务两个软件都有问题, idea可以删除一个, vs一个都不行
+
+---
+
+* ![image-20211014221347569](C:\Users\HP\AppData\Roaming\Typora\typora-user-images\image-20211014221347569.png)
+
+* ![image-20211014221414007](C:\Users\HP\AppData\Roaming\Typora\typora-user-images\image-20211014221414007.png)
+
+* 排序
+* ![image-20211014221431121](C:\Users\HP\AppData\Roaming\Typora\typora-user-images\image-20211014221431121.png)
+* 删除单个
+* ![image-20211014221506083](C:\Users\HP\AppData\Roaming\Typora\typora-user-images\image-20211014221506083.png)
+* 夜晚
+* ![image-20211014221518112](C:\Users\HP\AppData\Roaming\Typora\typora-user-images\image-20211014221518112.png)
+* 白天
+* ![image-20211014221535955](C:\Users\HP\AppData\Roaming\Typora\typora-user-images\image-20211014221535955.png)
+* 储存
+* ![image-20211014221559798](C:\Users\HP\AppData\Roaming\Typora\typora-user-images\image-20211014221559798.png)
+* 筛选(设置不区分大小写)
+* ![image-20211014221622793](C:\Users\HP\AppData\Roaming\Typora\typora-user-images\image-20211014221622793.png)
+* 清除缓存
+* ![image-20211014221646807](C:\Users\HP\AppData\Roaming\Typora\typora-user-images\image-20211014221646807.png)
+
+* 等等
+
+---
+
+
 
