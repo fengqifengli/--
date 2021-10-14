@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>log-in!</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/log-in.css">
+    <script src=https://cdn.bootcss.com/blueimp-md5/2.10.0/js/md5.min.js></script>
+    <script src="lib/jquery-3.6.0.js"></script>
+</head>
+<body>
+    <div id="mainBox">
+        <h1>LOGIN</h1>
+
+        <div class="inputBox">
+            <div class="inputText">
+                <input type="text" placeholder="username" id="username">
+            </div>
+
+            <div class="inputText">
+                <input type="password" placeholder="password" id="password">
+            </div>
+            <!-- 密码隐藏 -->
+            <input type="hidden" name="password" id="md5-password">
+            <a href="./main.html">
+                <button type="submit" class="inputButton" onclick="a()">LOGIN   
+                    <br> 
+                    (link to self-introduction)
+                </button>
+            </a>
+        </div>
+    </div>
+ 
+    <script>
+        $(function a() { 
+           alert("欢迎来到登录界面!");
+           var uname = document.getElementById('username');
+           var pwd = document.getElementById('password');
+           var md5pwd = document.getElementById('md5-password');
+           //pwd.value = md5(pwd.value);这个方法会使密码突然变长
+
+           //md5进行加密,防止密码被捕获
+           md5pwd.value = md5(md5pwd.value);
+           //可以校验判断表单
+        //    if(uname.value == "焦糖！"){
+               
+        //        return true;
+        //    }
+        //    else{
+        //        $(window).alert("Please enter '焦糖！'in username to LOGIN");
+        //        return false;
+        //    }
+           
+       })
+    </script>
+</body>
+</html>

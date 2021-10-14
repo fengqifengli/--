@@ -1,0 +1,150 @@
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+body{
+    color: #999;
+    background: url('../img/background3.png') no-repeat 0 0/100% 100%;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    position: absolute;
+}
+
+header{
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+    opacity: 0.9;
+    height: 50px;
+}
+
+a{
+    border: 3px solid lightgreen;
+    border-radius: 30%;
+    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+    font-size: 2em;
+}
+
+
+.main-box{
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+    opacity: 0.8;
+
+    width: 1519px;
+    height: 650px;
+
+    border: 0;
+    /* text-align: center; */
+    color: rgba(20, 18, 18, 0.3);
+    /* color: white; */
+
+    font-size: 1.5em;
+}
+
+.self{
+    font-size: 5em;
+    float: left;
+    margin: 200px 50px;
+    /* text-decoration: underline; */
+}
+
+.myimg{
+    margin: 40px;
+    float: left;
+    border: 10px solid rgb(126, 56, 9);
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.main-box div .me a{
+    border-radius: 50%;
+}
+
+#hobbies{
+    background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
+    width: 300px;
+    padding: 50px 30px;
+    border-radius: 30px;
+    float: left;
+    margin: 150px 30px;
+    color: rgb(116, 116, 116);
+    font-size: 1.2em;
+    line-height: 40px;
+    text-align: center;
+}
+
+.main-box div .self-introduction{
+    float: left;
+    margin-top: 150px;
+
+    width: 220px;
+    border-radius: 50%;
+    height: 220px;
+    text-align: center;
+    padding: 50px;
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+}
+
+.main-box div .self-introduction a{
+    font-size: 1.2em;
+    background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+}
+
+.main-box div .self-introduction textarea{
+    position: relative;
+    margin-top: 10px;
+    border: 0;
+    opacity: 0.9;
+    text-indent: 2em;
+    text-align: left;
+    line-height: 1.2em;
+    font-size: 0.8em;
+}
+
+
+.pager{
+    margin: 0 auto;
+    padding: 20px 0 0 0;
+    text-align: center;
+    background-image: linear-gradient(to top, #cc208e 0%, #6713d2 100%);
+    height: 40.4px;
+    opacity: 0.5;
+}
+
+.pager a {
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+    background-blend-mode: multiply;
+    border-radius: 0;
+    border: 3px solid #d8d8d8;
+    padding: 5px 10px;
+    margin: 0 3px;
+    text-decoration: none;
+    font-size: medium;
+    box-sizing: border-box;
+    color: white;   
+}
+
+.pager a:link{
+    color: white;   
+}
+
+.self .pager a:visited{
+    background-color: #000;
+    font-weight: bolder;
+    color: #fff;
+    opacity: 0.5;
+}
+
+.pager a:hover{
+    color: #a8edea;
+    border: 5px solid white;
+    font-weight: 900;
+    box-sizing: border-box;
+}
+
+.pager a:active{
+    background-color: #000;
+    color: #fff;
+    font-weight: bolder;
+}

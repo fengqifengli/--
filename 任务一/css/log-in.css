@@ -1,0 +1,58 @@
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+body{
+    margin: 0;
+    
+    padding: 0;
+    background-image: url('../img/background1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+}
+
+#mainBox{
+    position: relative;
+    /* 居中 */
+    margin-top: 200px;
+    margin-left: 500px;
+    padding: 20px 50px;
+    background-color: #00000090;
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#mainBox h1{
+    margin-top: 50px;
+    font-size: 2em;
+    color: #fff;
+}
+
+#mainBox .inputBox{
+    margin-top: 20px;
+}
+
+#mainBox .inputBox .inputText input{
+    box-sizing: content-box;
+    border: 0;
+    padding: 10px 10px;
+    border-bottom: 1px solid white;
+    background-color: #000;
+    color: white;
+    margin: 0.5px;
+}
+
+#mainBox .inputBox .inputButton{
+    border: 0;
+    width: 200px;
+    height: 40px;
+    color: white;
+    margin-top: 30px;
+    border-radius: 20px;
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
